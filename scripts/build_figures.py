@@ -652,12 +652,12 @@ def build_figure_5() -> None:
                     color=col if col != "#E69F00" else "#A66A00")
     ax.set_xlabel("Full-tray Group Brier score (lower = better)")
     ax.set_ylabel("Full-tray Group BA (%) (higher = better)")
-    ax.set_title("Full-tray accuracy vs. probability reliability (14 SWIR)")
+    ax.set_title("Full-tray accuracy vs. Group Brier score (14 SWIR)")
     ax.set_xlim(0.08, 0.62)
     ax.set_ylim(87.0, 91.8)
     ax.invert_xaxis()
     ax.grid(alpha=0.25, ls="--")
-    ax.text(0.04, 0.08, "← Higher Brier    Better reliability →", transform=ax.transAxes, fontsize=7.2, color="#555555")
+    ax.text(0.04, 0.08, "← Higher Brier    Lower Brier →", transform=ax.transAxes, fontsize=7.2, color="#555555")
     panel_label(ax, "B")
 
     ax = axes[1, 0]
