@@ -1,0 +1,10 @@
+{
+  "min_outer_train_trays_per_cultivar": 3,
+  "min_inner_train_trays_per_cultivar": 2,
+  "outer_cal3_min_train_trays": 2,
+  "outer_cal3_min_val_trays": 1,
+  "inner_cal2_min_train_trays": 1,
+  "inner_cal2_min_val_trays": 1,
+  "all_12_classes_every_split": true,
+  "zero_tray_overlap_every_split": true
+}

@@ -1,0 +1,96 @@
+{
+  "all_127": {
+    "n_trays": 127,
+    "mask_agrees": 127,
+    "intensity_agrees": 127,
+    "criteria_agree": 127,
+    "rotations": {
+      "rot90cw": 124,
+      "rot180": 3
+    },
+    "corr_min": 0.8215082338753537,
+    "corr_q25": 0.9073452561623607,
+    "corr_median": 0.9259217763949105,
+    "corr_q75": 0.9373478874164503,
+    "corr_max": 0.9524152050260032,
+    "margin_min": 0.1578587922874457,
+    "margin_median": 0.35881708983013705
+  },
+  "primary_67": {
+    "n_trays": 67,
+    "mask_agrees": 67,
+    "intensity_agrees": 67,
+    "criteria_agree": 67,
+    "rotations": {
+      "rot90cw": 64,
+      "rot180": 3
+    },
+    "corr_min": 0.9056031138296367,
+    "corr_q25": 0.9323801478633569,
+    "corr_median": 0.9372452643561197,
+    "corr_q75": 0.9404969424058516,
+    "corr_max": 0.9524152050260032,
+    "margin_min": 0.18021842406010646,
+    "margin_median": 0.4387302423307457
+  },
+  "august_60": {
+    "n_trays": 60,
+    "mask_agrees": 60,
+    "intensity_agrees": 60,
+    "criteria_agree": 60,
+    "rotations": {
+      "rot90cw": 60
+    },
+    "corr_min": 0.8215082338753537,
+    "corr_q25": 0.8701330770777395,
+    "corr_median": 0.9069887897690816,
+    "corr_q75": 0.9149747982135459,
+    "corr_max": 0.9343727817967754,
+    "margin_min": 0.1578587922874457,
+    "margin_median": 0.2950464014744249
+  },
+  "august_by_condition": {
+    "BASE": {
+      "n": 10,
+      "intensity_agrees": 10,
+      "mask_agrees": 10,
+      "corr_median": 0.9095006932269496,
+      "corr_min": 0.8875126740004962
+    },
+    "FLIP": {
+      "n": 10,
+      "intensity_agrees": 10,
+      "mask_agrees": 10,
+      "corr_median": 0.9112541253007345,
+      "corr_min": 0.8931265946510345
+    },
+    "LEFT_OFF": {
+      "n": 10,
+      "intensity_agrees": 10,
+      "mask_agrees": 10,
+      "corr_median": 0.8484363962479271,
+      "corr_min": 0.8224332604371275
+    },
+    "REP": {
+      "n": 10,
+      "intensity_agrees": 10,
+      "mask_agrees": 10,
+      "corr_median": 0.9115440523613052,
+      "corr_min": 0.8906065700753668
+    },
+    "REPOSITION": {
+      "n": 10,
+      "intensity_agrees": 10,
+      "mask_agrees": 10,
+      "corr_median": 0.919366841768458,
+      "corr_min": 0.8909183163108039
+    },
+    "RIGHT_OFF": {
+      "n": 10,
+      "intensity_agrees": 10,
+      "mask_agrees": 10,
+      "corr_median": 0.85910632396469,
+      "corr_min": 0.8215082338753537
+    }
+  }
+}

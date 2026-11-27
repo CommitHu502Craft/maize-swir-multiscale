@@ -1,0 +1,6 @@
+{
+  "identity": "h((1/k) sum x_i) == h(sum s_i z_i) for x_i = m_i*1 + s_i*z_i",
+  "max_abs_diff_across_67_trays": 1.5543122344752192e-15,
+  "corr_kernel_mean_refl_vs_wavelength_sd": 0.013160793126291825,
+  "s_i_cv_across_kernels": 0.22525605832911577
+}

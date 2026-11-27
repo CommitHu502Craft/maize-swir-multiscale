@@ -1,0 +1,27 @@
+{
+  "min_tray_kernels": 20,
+  "median_tray_kernels": 55.0,
+  "max_tray_kernels": 72,
+  "trays_with_n_eq_20": 1,
+  "trays_with_n_le_21": 2,
+  "fold_tray_pairs_with_50_unique": 195,
+  "total_fold_tray_pairs": 201,
+  "non_unique_tray_details": [
+    {
+      "record_id": "20260721_205946",
+      "n_kernels": 20,
+      "n_draws": 50,
+      "n_unique_draws": 1,
+      "max_possible_subsets": 1
+    },
+    {
+      "record_id": "20260721_210728",
+      "n_kernels": 21,
+      "n_draws": 50,
+      "n_unique_draws": 20,
+      "max_possible_subsets": 21
+    }
+  ],
+  "sample_weight_vs_C_scale_logistic_max_prob_diff": 3.1816216328195424e-12,
+  "sample_weight_vs_C_scale_svc_max_df_diff": 6.532641292042538
+}
