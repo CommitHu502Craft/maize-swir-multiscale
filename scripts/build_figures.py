@@ -594,7 +594,7 @@ def build_figure_5() -> None:
     ] + ["S_cnn1d_median", "S_cnn1d_mean"]
 
     fig, axes = plt.subplots(2, 2, figsize=(10.8, 7.8))
-    plt.subplots_adjust(wspace=0.30, hspace=0.38)
+    plt.subplots_adjust(wspace=0.33, hspace=0.38)
 
     strat_meta = [
         ("arith_raw", "Arithmetic mean (raw)", "#0072B2", "o-"),
@@ -720,7 +720,7 @@ def build_figure_5() -> None:
             ax.text(i, top_y + 0.025, f"NLL\n{nll_raw:.2f}→{nll_mt:.2f}", ha="center", va="bottom", fontsize=6.0, color="#333333", linespacing=1.1)
     ax.set_xticks(x)
     ax.set_xticklabels([g[0] for g in groups], fontsize=7.3)
-    ax.set_ylabel("Mean Group Brier score (14 SWIR; lower = better)")
+    ax.set_ylabel("Mean Group Brier score\n(14 SWIR; lower = better)")
     ax.set_title("Scale-matched post-pooling calibration transfer")
     ax.set_ylim(0, 1.04)
     ax.grid(axis="y", alpha=0.25, ls="--")
